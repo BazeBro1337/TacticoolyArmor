@@ -3,20 +3,23 @@
 	"id": "tacticoolyarmor",
 	"version": "${version}",
 	"name": "TacticoolyArmor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a cool tactical armor mod for fabric!",
 	"authors": [
-		"Me!"
+		"BazeBro"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tacticoolyarmor/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.bzbr.tacticooly.TacticoolyArmor"
+		],
+		"client": [
+			"net.bzbr.tacticooly.TacticoolyArmorClient"
 		],
 		"fabric-datagen": [
 			"net.bzbr.tacticooly.TacticoolyArmorDataGenerator"
